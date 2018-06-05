@@ -1,6 +1,6 @@
 pipeline {
   agent {
-    label 'smagent'
+    label 'jdk9'
   }
   stages {
     stage('hello world') {
